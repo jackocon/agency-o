@@ -1,0 +1,158 @@
+body {
+	box-sizing: border-box;
+	text-align: center;
+	color: black;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	background: #fff;
+	/*font-size: 16px;*/
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.services-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	width: calc(100% - (30px));
+	max-width: 1224px;
+	margin: auto;
+	content: "";
+	clear: both;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.mainfooter {
+	border-top: 1px solid #666;
+	padding: 30px 0px;
+	width: 100%;
+	font-size: 0.8rem;
+}
+
+.projects-breakup {
+	border-top: 1px solid #666;
+}
+
+
+
+.wrapper {
+	/*width: calc(100% - (30px));
+	max-width: 1224px;*/
+	margin: auto;
+  background-color: white;
+}
+
+#services {
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+.services-img{
+  margin-bottom: 40px;
+}
+
+.free {
+    background-color: #baf7e0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.free-p {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	color: #5d9c84;
+}
+
+.bg-faded {
+    background-color: #fff;
+}
+
+.container-fluid {
+     padding-left: 0;
+     padding-right: 0;
+}
+
+.hamburger {
+    cursor: pointer;
+    padding: 12px;
+    display: block;
+    float: right;
+  }
+
+  .line {
+    border-bottom: 4px solid #bbb;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+
+  .line:last-child{
+    margin-bottom: 0;
+  }
+
+	.menu{
+	    height: 0;
+	    overflow: hidden;
+	    transition: height 0.3s;
+	  }
+
+	  .open{
+	    height: 160px;
+	    /* previosly 295px */
+	  }
+
+		nav li{
+    width: 100%;
+  }
+
+	.logo-mobile {
+		max-width: 70%;
+	}
+
+	.navbar-brand {
+     float: none;
+	 }
+
+/*--------------------------------------------------
+MEDIA QUERIES
+--------------------------------------------------*/
+
+@media (min-width: 768px) {
+
+  	.wrapper {
+  		width: 90%;
+  	}
+}
+
+
+@media (min-width: 992px) {
+
+.services-page li {
+	max-width: 33%;
+	margin: 20px 20px;
+}
+
+.flexfooter {
+	display: flex;
+	justify-content: space-around;
+}
+
+.monica-border {
+	border-right: 1px solid #666;
+}
+}
